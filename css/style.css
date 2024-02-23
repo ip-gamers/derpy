@@ -1,0 +1,48 @@
+#container {
+    text-align: center;
+    padding: 100px;
+}
+
+#derpyButton {
+    background-color: gray;
+    color: white;
+    padding: 20px 40px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+#derpyVideoContainer {
+    display: none;
+    margin-top: 20px;
+}
+
+#derpyVideo {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#counter {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#messages {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    #container {
+        padding: 20px;
+    }
+
+    #derpyVideo {
+        width: 100%;
+        height: auto;
+    }
+}
